@@ -1,2 +1,15 @@
 venv/
 data/
+logs/
+*.sqlite3
+*.log
+*.pyc
+__pycache__/
+*.env
+*.pem
+*.crt
+*.key
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
