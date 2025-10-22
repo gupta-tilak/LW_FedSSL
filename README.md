@@ -736,12 +736,6 @@ Total: ~500K parameters
 
 ---
 
-## 📄 License
-
-MIT License - see LICENSE file
-
----
-
 ## 🙏 Acknowledgments
 
 - Flower Team for FL framework
@@ -757,11 +751,3 @@ MIT License - see LICENSE file
 - **GitHub**: [@gupta-tilak](https://github.com/gupta-tilak)
 
 ---
-
-<div align="center">
-
-**⭐ Star this repo if you find it helpful!**
-
-Made with ❤️ for the Federated Learning Community
-
-</div>
