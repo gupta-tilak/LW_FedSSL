@@ -48,18 +48,18 @@ The model is specifically designed for layer-wise federated training with multip
 Input: RGB Image (3 × 32 × 32)
     ↓
 ┌─────────────────────────────────────────┐
-│ Layer 1: Conv2d(3→32, k=3, p=1) + ReLU │  ← Stage 1 Training
-│ Parameters: 896                          │
+│ Layer 1: Conv2d(3→32, k=3, p=1) + ReLU  │  ← Stage 1 Training
+│ Parameters: 896                         │
 └─────────────────────────────────────────┘
     ↓
 ┌─────────────────────────────────────────┐
-│ Layer 2: Conv2d(32→64, k=3, p=1) + ReLU│  ← Stage 2 Training
-│ Parameters: 18,496                       │
+│ Layer 2: Conv2d(32→64, k=3, p=1) + ReLU │  ← Stage 2 Training
+│ Parameters: 18,496                      │
 └─────────────────────────────────────────┘
     ↓
 ┌─────────────────────────────────────────┐
-│ Layer 3: Conv2d(64→128, k=3, p=1) + ReLU│ ← Stage 3 Training
-│ Parameters: 73,856                       │
+│ Layer 3: Conv2d(64→128, k=3, p=1) + ReLU│  ← Stage 3 Training
+│ Parameters: 73,856                      │
 └─────────────────────────────────────────┘
     ↓
 Adaptive Average Pool (1×1)
